@@ -85,7 +85,7 @@ Grading scheme:
 |-----------|------------------------------------------------------------------|
 | Tue 04.04 | Convex optimization I. (Definitions, examples, gradient descent) |
 | Wed 05.04 | Gradient descent implementation                                  |
-| Tue 11.04 | Convex optimization II.                                          |
+| Tue 11.04 | Convex optimization II.  (Duality, constrained optimization)     |
 | Wed 12.04 |                                                                  |
 | Tue 18.04 | Non-smooth convex optimization                                   |
 | Wed 19.04 |                                                                  |
