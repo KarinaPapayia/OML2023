@@ -65,12 +65,12 @@ We then proceed with the following four themes commonly seen in data science
 ---
 
 ## Course Information 
-- From 11. October 2022 through 1. February 2023
+- From April 3rd through July 5th 2023
 - Tuesdays 11:15-12:45 (Lecture)
 - Wednesdays 15:15 - 16:45 (Seminar)
 - SG 2-14
 
-- Contact: samantha.fairchild(at)mis.mpg.de
+- Contact: katerina.papagiannouli(at)mis.mpg.de
 - Office hours: Tuesdays and Wednesdays after class, and by email.
 
 Grading scheme:
