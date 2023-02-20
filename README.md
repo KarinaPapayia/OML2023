@@ -1,6 +1,36 @@
 # Optimization-for-Machine-Learning
-# Mathematical foundations of data analysis
-Winter semester 22-23, University of Leipzig, 10-INF-DS201
+Summer semester 22-23, University of Leipzig, 10-INF-DS201
+
+Draft list of topics:
+
+1.  convex optimization (2 lectures)
+
+    -   Gradient descent
+
+2.  Nonsmooth convex optimization (1 lecture)
+
+    -   Mirror descent
+
+3.  Regularized risk minimization
+
+    -   
+
+4.  SGD
+
+5.  Online convex problem / Follow the regularized leader
+
+6.  Bandits
+
+7.  large scale learning, trade-off approximation risk optimization
+    risk, asymptotic analysis tradeoff of the performances, uniform
+    convergence bounds
+
+8.  deep learning optimization (ADAM, momentum\..., implementation from
+    scratch)
+
+    -   Accelerated methods
+
+9.  Project
 
 Goals:
 - Understand the definitions of standard data science terms, and the associated mathematical terms
