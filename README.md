@@ -83,39 +83,36 @@ Grading scheme:
 
 | Date | Topics |
 |------|--------|
-|  11.10    |  Orthogonal projections and the Pseudo-Inverse |
-|12.10| No class (Immatrikulationsfeier)|
-|  18.10    |   (Katerina Papagiannouli) Probability theory introduction: Random variables and Bayes' Theorem |
-|  19.10    |   (Simone  Steinbruechel) (uniqueness of) singular value decompositions |
-|25.10| Expected Value and Variance, the normal distribution|
-|26.10| Network Analysis: the Laplace matrix|
-|01.11| Spectrum of a graph, and the relationship to structure of a graph (HW 1 due)|
-|02.11|(SM) Eigenvectors of the Laplace matrix, Notebook 2 Example|
-|08.11|(SM) Diameter of a graph, spanning trees, and definition of a Markov process|
-|09.11|(SM) Transition matrices and stationary distributions|
-|15.11| (Katerina Papagiannouli) Existence and uniqueness of stationary distributions, Metropolis--Hastings algorithm |
-|16.11| No class (Buß- und Bettag)|
-|22.11|(SM) Machine Learning: Data, models, and learning (HW 2 due) |
-|23.11|(SM) Linear regression, least squares, MLE|
-|29.11| Non-linear regression, MAP and Bayesian approach (Notebook 4)|
-|30.11| Nueral networks |
-|6.12|Support vector machines (primal)|
-|7.12| Dual SVMs and Kernels (Notebook 5, HW 3 due)|
-|13.12| Deriving the Dual SVM |
-|14.12| Principal component analysis (PCA)|
-|20.12| PCA continued, Notebook 6 (HW 4 due)|
-|21.12-03.01|Winter Break|
-|4.01| Topological data analysis: Simplicies|
-|10.01| Simplicial complexes, Čech and Vietoris-Rips complex|
-|11.01| Comparing Čech and Vietoris-Rips complex, homology of planar complexes|
-|17.01| Homology, Betti numbers, Euler characteristic|
-|18.01| Persistent homology, Notebook 6|
-|24.01| Review topics: Pseudoinverse, Metropolis Hastings algorithm, application of Markov processes to data science, Min-cut definitions (HW 5 due)|
-|25.01| Continue Review topics|
-|31.01| Practice final exam|
-|1.02|Going through solutions to practice final exam|
-|14.02| Final exam from 11:15-12:45 in Raum: S 110, Seminarraum Ort: Semi|
-
+|04.04|   |
+|05.04|   |
+|11.04|   |
+|12.04|   |
+|18.04|   |
+|19.04|   |
+|25.04|   |
+|26.04|   |
+|02.05|   |
+|03.05|   |
+|09.05|   |
+|10.05|   |
+|16.05|   |
+|17.05|   |
+|23.05|   |
+|24.05|   |
+|30.05|   |
+|31.05|   |
+|06.06|   |
+|07.06|   |
+|13.06|   |
+|14.06|   |
+|20.06|   |
+|21.06|   |
+|27.06|   |
+|28.06|   |
+|04.07|   |
+|05.07|   |
+|11.07|   |
+|12.07|   |
 
 ---
 
