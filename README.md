@@ -39,36 +39,36 @@ Goals:
 - Investigate the math behind your favorite topic in data science
 
 We first cover two introductory topics
-1. Linear algebra
-  - Subspaces
-  - Orthogonality
-  - The pseudo-inverse
-  - the singular value decomposition
-2. Probability Theory
+%%1. Linear algebra
+  %%- Subspaces
+  %%- Orthogonality
+  %%- The pseudo-inverse
+  %%- the singular value decomposition
+%%2. Probability Theory
 
-We then proceed with the following four themes commonly seen in data science
+%%We then proceed with the following four themes commonly seen in data science
 
-3. Network analysis
-  - Graphs and the Laplace matrix
-  - The spectrum of a graph
-  - Markov processes in networks
-  - Centrality measures
-4. Machine learning
-  - Data, models, and learning
-  - Regeression in statistical models
-  - Principal component analysis (method for dimension reduction)
-  - Support vector machines (binary classification method)
-5. Topological data analysis
-  - Simplicial complexes and homology
-6. Matrices and tensors
-  - Low rank matrices and tensors
+%%3. Network analysis
+  %%- Graphs and the Laplace matrix
+  %%- The spectrum of a graph
+  %%- Markov processes in networks
+  %%- Centrality measures
+%%4. Machine learning
+  %%- Data, models, and learning
+  %%- Regeression in statistical models
+  %%- Principal component analysis (method for dimension reduction)
+  %%- Support vector machines (binary classification method)
+%%5. Topological data analysis
+  %%- Simplicial complexes and homology
+%%6. Matrices and tensors
+  %%- Low rank matrices and tensors
 ---
 
 ## Course Information 
-- From April 3rd through July 5th 2023
+- From April 4th through July 5th 2023
 - Tuesdays 11:15-12:45 (Lecture)
 - Wednesdays 15:15 - 16:45 (Seminar)
-- SG 2-14
+%%- SG 2-14
 
 - Contact: katerina.papagiannouli(at)mis.mpg.de
 - Office hours: Tuesdays and Wednesdays after class, and by email.
@@ -81,38 +81,38 @@ Grading scheme:
 ---
 ## Course Schedule
 
-| Date | Topics |
-|------|--------|
-|Tue 04.04|   |
-|Wed 05.04|   |
-|Tue 11.04|   |
-|Wed 12.04|   |
-|Tue 18.04|   |
-|Wed 19.04|   |
-|Tue 25.04|   |
-|Wed 26.04|   |
-|Tue 02.05|   |
-|Wed 03.05|   |
-|Tue 09.05|   |
-|Wed 10.05|   |
-|Tue 16.05|   |
-|Wed 17.05|   |
-|Tue 23.05|   |
-|Wed 24.05|   |
-|Tue 30.05|   |
-|Wed 31.05|   |
-|Tue 06.06|   |
-|Wed 07.06|   |
-|Tue 13.06|   |
-|Wed 14.06|   |
-|Tue 20.06|   |
-|Wed 21.06|   |
-|Tue 27.06|   |
-|Wed 28.06|   |
-|Tue 04.07|   |
-|Wed 05.07|   |
-|Tue 11.07|   |
-|Wed 12.07|   |
+| Date      | Topics                                                           |
+|-----------|------------------------------------------------------------------|
+| Tue 04.04 | Convex optimization I. (Definitions, examples, gradient descent) |
+| Wed 05.04 | Gradient descent implementation                                  |
+| Tue 11.04 | Convex optimization II.                                          |
+| Wed 12.04 |                                                                  |
+| Tue 18.04 | Non-smooth convex optimization                                   |
+| Wed 19.04 |                                                                  |
+| Tue 25.04 |                                                                  |
+| Wed 26.04 |                                                                  |
+| Tue 02.05 |                                                                  |
+| Wed 03.05 |                                                                  |
+| Tue 09.05 |                                                                  |
+| Wed 10.05 |                                                                  |
+| Tue 16.05 |                                                                  |
+| Wed 17.05 |                                                                  |
+| Tue 23.05 |                                                                  |
+| Wed 24.05 |                                                                  |
+| Tue 30.05 |                                                                  |
+| Wed 31.05 |                                                                  |
+| Tue 06.06 |                                                                  |
+| Wed 07.06 |                                                                  |
+| Tue 13.06 |                                                                  |
+| Wed 14.06 |                                                                  |
+| Tue 20.06 |                                                                  |
+| Wed 21.06 |                                                                  |
+| Tue 27.06 |                                                                  |
+| Wed 28.06 |                                                                  |
+| Tue 04.07 |                                                                  |
+| Wed 05.07 |                                                                  |
+| Tue 11.07 |                                                                  |
+| Wed 12.07 |                                                                  |
 
 ---
 
