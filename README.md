@@ -1,5 +1,5 @@
 # Optimization-for-Machine-Learning
-Summer semester 22-23, University of Leipzig, 10-INF-DS201
+Summer semester '23, University of Leipzig, 10-INF-XXXXX
 
 Draft list of topics:
 
