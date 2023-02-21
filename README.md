@@ -153,6 +153,7 @@ notes](https://raw.githubusercontent.com/KarinaPapayia/Optimization-for-Machine-
 ### 1. Convex Optimization
 
 [Convex optimization](https://web.stanford.edu/~boyd/cvxbook), Boyd & Vandenberghe
+
 [Introductory lectures on convex optimization](), Nesterov
 
 ### 
