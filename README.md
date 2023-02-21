@@ -2,41 +2,48 @@
 Summer semester '23, University of Leipzig, 10-INF-XXXXX
 
 Draft list of topics:
+1. Introduction: Examples of optimization in machine learning
+   - Empirical risk minimization
+   - Matrix completion/recommender systems
+   - Learning in dynamical systems
 
-0. Examples and teasers about optimization problems 
-   
-1.  convex optimization (2 lectures)
+1.  Basic concepts of convex optimization
 
-    -   Gradient descent
+    - Analysis of gradient descent algorithm 
+    - Optimality condition (KKT)
+    - Projection onto convex sets (constrained optimization)
+    - Polyak step size
 
-2.  Nonsmooth convex optimization (1 lecture)
 
-    -   Mirror descent
+2.  Non-smooth convex optimization (regularised risk minimization)
 
-3.  Regularized risk minimization
+    -   Mirror descent algorithm 
+    -   Stochastic approximation mirror descent algorithm
+  
+3.  Stochstic Gradiend Descent
 
-    -   
+5.  Online Convex Optimization
+    - Follow-The-Regularised-Leader (FTRL) algorithm
 
-4.  SGD
+6.  Introduction to Bandits:
+    - Exploration-Explotation aglorithm
 
-5.  Online convex problem / Follow the regularized leader
+7.  Large scale learning:
+    - Approximation risk optimization
+    - Asymptotic analysis, uniform convergance bounds
+    - tradeoff of the performances
+  
 
-6.  Bandits
-
-7.  large scale learning, trade-off approximation risk optimization
-    risk, asymptotic analysis tradeoff of the performances, uniform
-    convergence bounds
-
-8.  deep learning optimization (ADAM, momentum\..., implementation from
+8.  Deep learning optimization (ADAM, momentum..., implementation from
     scratch)
 
-    -   Accelerated methods
+    -  Accelerated methods
+    -  Natural gradient descent
 
-9.  Project
-    a. Linear optimization
-    b. Matrix completion 
-    c. Low rank approximation (constrained optimization)
-
+9.  Projects: 
+    - Matrix completion (low rank approximation)
+    - Optimization in deep linear learning models 
+    - Learning in dynamical sytems
 <!--Goals:-->
 <!--- Understand the definitions of standard data science terms, and the associated mathematical terms-->
 <!--- Understand the proofs of how commonly used techniques in data science work-->
