@@ -30,14 +30,15 @@ Draft list of topics:
 
 7.  Large scale learning:
     - Approximation risk optimization
-    - Asymptotic analysis, uniform convergenve bounds
+    - Asymptotic analysis, uniform convergance bounds
     - tradeoff of the performances
   
 
 8.  Deep learning optimization (ADAM, momentum..., implementation from
     scratch)
 
-    -   Accelerated methods
+    -  Accelerated methods
+    -  Natural gradient descent
 
 9.  Projects: 
     - Matrix completion (low rank approximation)
