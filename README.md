@@ -31,7 +31,7 @@ Draft list of topics:
 7.  Large scale learning:
     - Approximation risk optimization
     - Asymptotic analysis, uniform convergance bounds
-    - tradeoff of the performances
+    - Trade-off of the performances
   
 
 8.  Deep learning optimization (ADAM, momentum..., implementation from
