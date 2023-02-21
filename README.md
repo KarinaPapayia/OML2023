@@ -98,19 +98,19 @@ Grading scheme:
 | Tue 04.04 | Inroduction to Optimization for machine learning
 | Wed 05.04 | Basic concepts of mathemactical convex optimization                                                                 |
 | Tue 11.04 | Analysis of gradient descent algorithm                                                            |    
-| Wed 12.04 | Exersice: Implementation of gradient descent algorithm                                                               |
+| Wed 12.04 | Exercise: Implementation of gradient descent algorithm                                                               |
 | Tue 18.04 | Non-smooth convex optimization/ regularised risk minimizatiom                                                                |
 | Wed 19.04 | Implementation of mirror descent algorithm                                                              |
 | Tue 25.04 | Stochastic gradient descent                                                              |
-| Wed 26.04 |  Implementaio                                                              |
+| Wed 26.04 |  Implementation of SGD                                                              |
 | Tue 02.05 |  Online Convex Optimization                                                                |
 | Wed 03.05 |  Implementation of FTRL algorithm                                                                |
 | Tue 09.05 |  Intro to Bandits                                                              |
 | Wed 10.05 |  Implementation of Exploration-Explotation algorithm                                                                |
 | Tue 16.05 |  Large scale learning: empirical risk minimization   ERM                                                            |
-| Wed 17.05 |  Excersises                                                                |
+| Wed 17.05 |  Exercises                                                                |
 | Tue 23.05 |  Asymptotic analysis of ERM                                                               |
-| Wed 24.05 |  Excersises/                                                             |
+| Wed 24.05 |  Exercises/ projects assigned                                                              |
 | Tue 30.05 |  Trade-off of the performances                                                              |
 | Wed 31.05 |  Analysis of SVM and its performance through different algorithms                                                                |
 | Tue 06.06 |  Deep learning optimization part 1                                                              |
