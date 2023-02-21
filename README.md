@@ -3,6 +3,7 @@ Summer semester '23, University of Leipzig, 10-INF-XXXXX
 
 Draft list of topics:
 
+
 1.  convex optimization (2 lectures)
 
     -   Gradient descent
