@@ -32,43 +32,43 @@ Draft list of topics:
 
 9.  Project
 
-Goals:
-- Understand the definitions of standard data science terms, and the associated mathematical terms
-- Understand the proofs of how commonly used techniques in data science work
-- Implement the algorithms and examples with a computer program
-- Investigate the math behind your favorite topic in data science
+<!--Goals:-->
+<!--- Understand the definitions of standard data science terms, and the associated mathematical terms-->
+<!--- Understand the proofs of how commonly used techniques in data science work-->
+<!--- Implement the algorithms and examples with a computer program-->
+<!--- Investigate the math behind your favorite topic in data science-->
 
-We first cover two introductory topics
-%%1. Linear algebra
-  %%- Subspaces
-  %%- Orthogonality
-  %%- The pseudo-inverse
-  %%- the singular value decomposition
-%%2. Probability Theory
+<!--We first cover two introductory topics-->
+<!--1. Linear algebra-->
+  <!--- Subspaces-->
+  <!--- Orthogonality-->
+  <!--- The pseudo-inverse-->
+  <!--- the singular value decomposition-->
+<!--2. Probability Theory-->
 
-%%We then proceed with the following four themes commonly seen in data science
+<!--We then proceed with the following four themes commonly seen in data science-->
 
-%%3. Network analysis
-  %%- Graphs and the Laplace matrix
-  %%- The spectrum of a graph
-  %%- Markov processes in networks
-  %%- Centrality measures
-%%4. Machine learning
-  %%- Data, models, and learning
-  %%- Regeression in statistical models
-  %%- Principal component analysis (method for dimension reduction)
-  %%- Support vector machines (binary classification method)
-%%5. Topological data analysis
-  %%- Simplicial complexes and homology
-%%6. Matrices and tensors
-  %%- Low rank matrices and tensors
+<!--3. Network analysis-->
+  <!--- Graphs and the Laplace matrix-->
+  <!--- The spectrum of a graph-->
+  <!--- Markov processes in networks-->
+  <!--- Centrality measures-->
+<!--4. Machine learning-->
+  <!--- Data, models, and learning-->
+  <!--- Regeression in statistical models-->
+  <!--- Principal component analysis (method for dimension reduction)-->
+  <!--- Support vector machines (binary classification method)-->
+<!--5. Topological data analysis-->
+  <!--- Simplicial complexes and homology-->
+<!--6. Matrices and tensors-->
+  <!--- Low rank matrices and tensors-->
 ---
 
 ## Course Information 
 - From April 4th through July 5th 2023
 - Tuesdays 11:15-12:45 (Lecture)
 - Wednesdays 15:15 - 16:45 (Seminar)
-%%- SG 2-14
+<!--- SG 2-14-->
 
 - Contact: katerina.papagiannouli(at)mis.mpg.de
 - Office hours: Tuesdays and Wednesdays after class, and by email.
@@ -80,7 +80,6 @@ Grading scheme:
 
 ---
 ## Course Schedule
-
 | Date      | Topics                                                           |
 |-----------|------------------------------------------------------------------|
 | Tue 04.04 | Convex optimization I. (Definitions, examples, gradient descent) |
@@ -118,30 +117,30 @@ Grading scheme:
 
 ## Julia und Jupyter Notebooks
 
-%%This repository contains the [Jupyter Notebooks](https://github.com/skfairchild/MathData-Winter22-23) from the class.
+This repository contains the [Jupyter Notebooks](https://github.com/skfairchild/MathData-Winter22-23) from the class.
 
-%%In order to use the notebooks:
+In order to use the notebooks:
 
-%%* Download the notebooks (Click on the green `Code` Button or download as Zip File or use a Git Client such as [Github Desktop](https://desktop.github.com) oder [Sublime](https://www.sublimemerge.com)).
-%%* Download the newest version of Juila [here](https://julialang.org/downloads/).
-%%* Start Juila.
-%%* Enter the package manager by putting in `]` in the package manager.
-%%* `add IJulia`
-%%* Leave the package manager with a backspace.
-%%* `using IJulia` 
-%%* `notebook()` 
+* Download the notebooks (Click on the green `Code` Button or download as Zip File or use a Git Client such as [Github Desktop](https://desktop.github.com) oder [Sublime](https://www.sublimemerge.com)).
+* Download the newest version of Juila [here](https://julialang.org/downloads/).
+* Start Juila.
+* Enter the package manager by putting in `]` in the package manager.
+* `add IJulia`
+* Leave the package manager with a backspace.
+* `using IJulia` 
+* `notebook()` 
 
-%%Then a browser window should open, in which the local saved notebooks can be opened.D
+Then a browser window should open, in which the local saved notebooks can be opened.D
 
-%%Other material from the [Julia Academy](https://github.com/JuliaAcademy):
+Other material from the [Julia Academy](https://github.com/JuliaAcademy):
 
-%%* [Introduction to Julia](https://github.com/JuliaAcademy/Introduction-to-Julia)
+* [Introduction to Julia](https://github.com/JuliaAcademy/Introduction-to-Julia)
 
-%%* [Data Science](https://github.com/JuliaAcademy/DataScience)
+* [Data Science](https://github.com/JuliaAcademy/DataScience)
 
-%%* [Foundations of Machine Learning](https://github.com/JuliaAcademy/Foundations-of-Machine-Learning)
+* [Foundations of Machine Learning](https://github.com/JuliaAcademy/Foundations-of-Machine-Learning)
 
-%%* [Data Frames](https://github.com/JuliaAcademy/DataFrames)
+* [Data Frames](https://github.com/JuliaAcademy/DataFrames)
 
 ---
 
