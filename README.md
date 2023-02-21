@@ -87,7 +87,7 @@ Draft list of topics:
 
 Grading scheme:
 - 10% Homework: assigned every other week, hand in 1 problem for grading.
-- 40% Project: Due 18.01 in class: Pick a data science topic and learn about the math behind it. Must include 1 proof and 1 example (~2 pages)
+- 40% Project: Due 30.06 in class: Pick one project from the list
 - 50% Exam: written theory exam covering entire course, mainly computations and examples.
 
 ---
@@ -127,9 +127,9 @@ Grading scheme:
 
 ---
 
-## Julia und Jupyter Notebooks
+## Python und Jupyter Notebooks
 
-This repository contains the [Jupyter Notebooks](https://github.com/skfairchild/MathData-Winter22-23) from the class.
+<!-- This repository contains the [Jupyter Notebooks](https://github.com/skfairchild/MathData-Winter22-23) from the class.
 
 In order to use the notebooks:
 
@@ -154,7 +154,7 @@ Other material from the [Julia Academy](https://github.com/JuliaAcademy):
 
 * [Data Frames](https://github.com/JuliaAcademy/DataFrames)
 
----
+--- -->
 
 ## Literature
 The following materials are chosen to complement the [course lecture
