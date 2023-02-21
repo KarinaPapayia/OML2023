@@ -15,7 +15,7 @@ Draft list of topics:
     - Polyak step size
 
 
-2.  Non-smooth convex optimization (regularised risk minimization)
+2.  Non-smooth convex optimization (regularized risk minimization)
 
     -   Mirror descent algorithm: minimizing over 
     -   Mirror descent stochastic approximation
@@ -95,36 +95,34 @@ Grading scheme:
 ## Course Schedule
 | Date      | Topics                                                           |
 |-----------|------------------------------------------------------------------|
-| Tue 04.04 | Convex optimization I. (Definitions, examples, gradient descent) |
-| Wed 05.04 | Gradient descent implementation                                  |
-| Tue 11.04 | Convex optimization II.  (Duality, constrained optimization)     |
-| Wed 12.04 |                                                                  |
-| Tue 18.04 | Non-smooth convex optimization                                   |
-| Wed 19.04 |                                                                  |
-| Tue 25.04 |                                                                  |
-| Wed 26.04 |                                                                  |
-| Tue 02.05 |                                                                  |
-| Wed 03.05 |                                                                  |
-| Tue 09.05 |                                                                  |
-| Wed 10.05 |                                                                  |
-| Tue 16.05 |                                                                  |
-| Wed 17.05 |                                                                  |
-| Tue 23.05 |                                                                  |
-| Wed 24.05 |                                                                  |
-| Tue 30.05 |                                                                  |
-| Wed 31.05 |                                                                  |
-| Tue 06.06 |                                                                  |
-| Wed 07.06 |                                                                  |
-| Tue 13.06 |                                                                  |
-| Wed 14.06 |                                                                  |
-| Tue 20.06 |                                                                  |
-| Wed 21.06 |                                                                  |
-| Tue 27.06 |                                                                  |
-| Wed 28.06 |                                                                  |
-| Tue 04.07 |                                                                  |
-| Wed 05.07 |                                                                  |
-| Tue 11.07 |                                                                  |
-| Wed 12.07 |                                                                  |
+| Tue 04.04 | Inroduction to Optimization for machine learning
+| Wed 05.04 | Basic concepts of mathemactical convex optimization                                                                 |
+| Tue 11.04 | Analysis of gradient descent algorithm                                                            |    
+| Wed 12.04 | Exersice: Implementation of gradient descent algorithm                                                               |
+| Tue 18.04 | Non-smooth convex optimization/ regularised risk minimizatiom                                                                |
+| Wed 19.04 | Implementation of mirror descent algorithm                                                              |
+| Tue 25.04 | Stochastic gradient descent                                                              |
+| Wed 26.04 |  Implementaio                                                              |
+| Tue 02.05 |  Online Convex Optimization                                                                |
+| Wed 03.05 |  Implementation of FTRL algorithm                                                                |
+| Tue 09.05 |  Intro to Bandits                                                              |
+| Wed 10.05 |  Implementation of Exploration-Explotation algorithm                                                                |
+| Tue 16.05 |  Large scale learning: empirical risk minimization   ERM                                                            |
+| Wed 17.05 |  Excersises                                                                |
+| Tue 23.05 |  Asymptotic analysis of ERM                                                               |
+| Wed 24.05 |  Excersises/                                                             |
+| Tue 30.05 |  Trade-off of the performances                                                              |
+| Wed 31.05 |  Analysis of SVM and its performance through different algorithms                                                                |
+| Tue 06.06 |  Deep learning optimization part 1                                                              |
+| Wed 07.06 |  Implemention Adam, momentum..                                                                |
+| Tue 13.06 |  Deep learning part 2: Natural Gradient descent                                                                |
+| Wed 14.06 |  Implementation of natural gradient descent                                                                |
+| Tue 20.06 |  Discussion of the projects                      |
+| Wed 21.06 |                                                                 |
+| Tue 27.06 |  Review topics                                                               |
+| Wed 28.06 |  Submission of the projects                                                              |
+| Tue 04.07 |  Review topics                                                             |
+| Wed 05.07 |  Practice final exam                                                                |
 
 ---
 
@@ -169,9 +167,11 @@ notes](https://raw.githubusercontent.com/KarinaPapayia/Optimization-for-Machine-
 
 [Introductory lectures on convex optimization](), Nesterov
 
-### 2. Optimization in deep linnear networks
+### 2. Optimization for machine learning
+[Optimization for machine learning](https://doc.lagout.org/science/Artificial%20Intelligence/Machine%20learning/Optimization%20for%20Machine%20Learning%20%5BSra%2C%20Nowozin%20%26%20Wright%202011-09-30%5D.pdf)
 
 ### 3. Online convex optimization
 
+[Intro to Online Convex Optimization](https://arxiv.org/pdf/1909.05207.pdf), Elad Hazan
 
-### 4. Bandits
+
