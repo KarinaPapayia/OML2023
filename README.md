@@ -10,15 +10,15 @@ Draft list of topics:
 1.  Basic concepts of convex optimization
 
     - Analysis of gradient descent algorithm 
-    - Optimality condition (KKT)
+    - Optimality conditions (KKT)
     - Projection onto convex sets (constrained optimization)
     - Polyak step size
 
 
 2.  Non-smooth convex optimization (regularised risk minimization)
 
-    -   Mirror descent algorithm 
-    -   Stochastic approximation mirror descent algorithm
+    -   Mirror descent algorithm: minimizing over 
+    -   Mirror descent stochastic approximation
   
 3.  Stochstic Gradiend Descent
 
@@ -44,11 +44,12 @@ Draft list of topics:
     - Matrix completion (low rank approximation)
     - Optimization in deep linear learning models 
     - Learning in dynamical sytems
-<!--Goals:-->
-<!--- Understand the definitions of standard data science terms, and the associated mathematical terms-->
-<!--- Understand the proofs of how commonly used techniques in data science work-->
-<!--- Implement the algorithms and examples with a computer program-->
-<!--- Investigate the math behind your favorite topic in data science-->
+
+ Goals:
+  - Understand the basic mathematical concepts of convex optimization
+  - Understand the difference between online and offline optimization methods
+  - Analyse the performace of optimization algorithms from a statistical-learning perspective
+  - Apply the optimization methods to machine learning problems
 
 <!--We first cover two introductory topics-->
 <!--1. Linear algebra-->
