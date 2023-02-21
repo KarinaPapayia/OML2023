@@ -3,6 +3,8 @@ Summer semester '23, University of Leipzig, 10-INF-XXXXX
 
 Draft list of topics:
 
+0. Examples and teasers about optimization problems 
+   
 1.  convex optimization (2 lectures)
 
     -   Gradient descent
@@ -31,6 +33,9 @@ Draft list of topics:
     -   Accelerated methods
 
 9.  Project
+    a. Linear optimization
+    b. Matrix completion 
+    c. Low rank approximation (constrained optimization)
 
 <!--Goals:-->
 <!--- Understand the definitions of standard data science terms, and the associated mathematical terms-->
