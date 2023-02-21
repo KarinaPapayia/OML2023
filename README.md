@@ -168,4 +168,9 @@ notes](https://raw.githubusercontent.com/KarinaPapayia/Optimization-for-Machine-
 
 [Introductory lectures on convex optimization](), Nesterov
 
-### 
+### 2. Optimization in deep linnear networks
+
+### 3. Online convex optimization
+
+
+### 4. Bandits
