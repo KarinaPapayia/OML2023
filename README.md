@@ -88,7 +88,7 @@ Draft list of topics:
 
 Grading scheme:
 - 10% Homework: assigned every other week, hand in 1 problem for grading.
-- 40% Project: Due 30.06 in class: Pick one project from the list
+- 40% Project: Due 28.06 in class
 - 50% Exam: written theory exam covering entire course, mainly computations and examples.
 
 ---
