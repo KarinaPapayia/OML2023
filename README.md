@@ -20,17 +20,17 @@ Draft list of topics:
     -   Mirror descent algorithm: minimizing over 
     -   Mirror descent stochastic approximation
   
-3.  Stochstic Gradiend Descent
+3.  Stochastic Gradient Descent
 
 5.  Online Convex Optimization
     - Follow-The-Regularised-Leader (FTRL) algorithm
 
 6.  Introduction to Bandits:
-    - Exploration-Explotation aglorithm
+    - Exploration-Exploitation algorithm
 
 7.  Large scale learning:
     - Approximation risk optimization
-    - Asymptotic analysis, uniform convergance bounds
+    - Asymptotic analysis, uniform convergence bounds
     - Trade-off of the performances
   
 
@@ -43,47 +43,22 @@ Draft list of topics:
 9.  Projects: 
     - Matrix completion (low rank approximation)
     - Optimization in deep linear learning models 
-    - Learning in dynamical sytems
+    - Learning in dynamical systems
 
  Goals:
   - Understand the basic mathematical concepts of convex optimization
   - Understand the difference between online and offline optimization methods
-  - Analyse the performace of optimization algorithms from a statistical-learning perspective
+  - Analyse the performance of optimization algorithms from a statistical-learning perspective
   - Apply the optimization methods to machine learning problems
 
-<!--We first cover two introductory topics-->
-<!--1. Linear algebra-->
-  <!--- Subspaces-->
-  <!--- Orthogonality-->
-  <!--- The pseudo-inverse-->
-  <!--- the singular value decomposition-->
-<!--2. Probability Theory-->
-
-<!--We then proceed with the following four themes commonly seen in data science-->
-
-<!--3. Network analysis-->
-  <!--- Graphs and the Laplace matrix-->
-  <!--- The spectrum of a graph-->
-  <!--- Markov processes in networks-->
-  <!--- Centrality measures-->
-<!--4. Machine learning-->
-  <!--- Data, models, and learning-->
-  <!--- Regeression in statistical models-->
-  <!--- Principal component analysis (method for dimension reduction)-->
-  <!--- Support vector machines (binary classification method)-->
-<!--5. Topological data analysis-->
-  <!--- Simplicial complexes and homology-->
-<!--6. Matrices and tensors-->
-  <!--- Low rank matrices and tensors-->
 ---
 
 ## Course Information 
 - From April 4th through July 5th 2023
 - Tuesdays 11:15-12:45 (Lecture) Katerina Papagiannouli
 - Wednesdays 15:15 - 16:45 (Seminar) Pierre Bréchet
-<!--- SG 2-14-->
 
-- Contact: katerina.papagiannouli(at)mis.mpg.de
+- Contact: katerina.papagiannouli(at)mis.mpg.de, pierre.brechet(at)mis.mpg.de
 - Office hours: Tuesdays and Wednesdays after class, and by email.
 
 Grading scheme:
@@ -93,40 +68,41 @@ Grading scheme:
 
 ---
 ## Course Schedule
-| Date      | Topics                                                           |
+
+| Date      | Topics                                                           |   
 |-----------|------------------------------------------------------------------|
-| Tue 04.04 | Inroduction to Optimization for machine learning
-| Wed 05.04 | Basic concepts of mathemactical convex optimization                                                                 |
-| Tue 11.04 | Analysis of gradient descent algorithm                                                            |    
-| Wed 12.04 | Exercise: Implementation of gradient descent algorithm                                                               |
-| Tue 18.04 | Non-smooth convex optimization/ regularised risk minimizatiom                                                                |
-| Wed 19.04 | Implementation of mirror descent algorithm                                                              |
-| Tue 25.04 | Stochastic gradient descent                                                              |
-| Wed 26.04 |  Implementation of SGD                                                              |
-| Tue 02.05 |  Online Convex Optimization                                                                |
-| Wed 03.05 |  Implementation of FTRL algorithm                                                                |
-| Tue 09.05 |  Intro to Bandits                                                              |
-| Wed 10.05 |  Implementation of Exploration-Explotation algorithm                                                                |
-| Tue 16.05 |  Large scale learning: empirical risk minimization   ERM                                                            |
-| Wed 17.05 |  Exercises                                                                |
-| Tue 23.05 |  Asymptotic analysis of ERM                                                               |
-| Wed 24.05 |  Exercises/ projects assigned                                                              |
-| Tue 30.05 |  Trade-off of the performances                                                              |
-| Wed 31.05 |  Analysis of SVM and its performance through different algorithms                                                                |
-| Tue 06.06 |  Deep learning optimization part 1                                                              |
-| Wed 07.06 |  Implemention Adam, momentum..                                                                |
-| Tue 13.06 |  Deep learning part 2: Natural Gradient descent                                                                |
-| Wed 14.06 |  Implementation of natural gradient descent                                                                |
-| Tue 20.06 |  Discussion of the projects                      |
-| Wed 21.06 |                                                                 |
-| Tue 27.06 |  Review topics                                                               |
-| Wed 28.06 |  Submission of the projects                                                              |
-| Tue 04.07 |  Review topics                                                             |
-| Wed 05.07 |  Practice final exam                                                                |
+| Tue 04.04 | Introduction to Optimization for machine learning                |   
+| Wed 05.04 | Basic concepts of mathematical convex optimization               |   
+| Tue 11.04 | Analysis of gradient descent algorithm                           |   
+| Wed 12.04 | Exercise: Implementation of gradient descent algorithm           |   
+| Tue 18.04 | Non-smooth convex optimization/ regularised risk minimization    |   
+| Wed 19.04 | Implementation of mirror descent algorithm                       |   
+| Tue 25.04 | Stochastic gradient descent                                      |   
+| Wed 26.04 | Implementation of SGD                                            |   
+| Tue 02.05 | Online Convex Optimization                                       |   
+| Wed 03.05 | Implementation of FTRL algorithm                                 |   
+| Tue 09.05 | Intro to Bandits                                                 |   
+| Wed 10.05 | Implementation of Exploration-Exploitation algorithm             |   
+| Tue 16.05 | Large scale learning: empirical risk minimization   ERM          |   
+| Wed 17.05 | Exercises                                                        |   
+| Tue 23.05 | Asymptotic analysis of ERM                                       |   
+| Wed 24.05 | Exercises/ projects assigned                                     |   
+| Tue 30.05 | Trade-off of the performances                                    |   
+| Wed 31.05 | Analysis of SVM and its performance through different algorithms |   
+| Tue 06.06 | Deep learning optimization part 1                                |   
+| Wed 07.06 | Implementation Adam, SGD with momentum.                          |   
+| Tue 13.06 | Deep learning part 2: Natural Gradient descent                   |   
+| Wed 14.06 | Implementation of natural gradient descent                       |   
+| Tue 20.06 | Discussion of the projects                                       |   
+| Wed 21.06 |                                                                  |   
+| Tue 27.06 | Review topics                                                    |   
+| Wed 28.06 | Submission of the projects                                       |   
+| Tue 04.07 | Review topics                                                    |   
+| Wed 05.07 | Practice final exam                                              |   
 
 ---
 
-## Python und Jupyter Notebooks
+## Python, Julia and Jupyter Notebooks
 
 <!-- This repository contains the [Jupyter Notebooks](https://github.com/skfairchild/MathData-Winter22-23) from the class.
 
