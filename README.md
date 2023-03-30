@@ -56,7 +56,7 @@ Draft list of topics:
 ## Course Information 
 - From April 4th through July 5th 2023
 - Mondays (from April 17th) 17:15 -- 18:45 (Seminar) Pierre Bréchet 
-- Wednesdays 15:15 -- 16:45 (Lectures) Katerina Papagiannouli
+- Wednesdays 15:15 --- 16:45 (Lectures) Katerina Papagiannouli
 
 - Contact: katerina.papagiannouli(at)mis.mpg.de, pierre.brechet(at)mis.mpg.de
 - Office hours: Tuesdays and Wednesdays after class, and by email.
