@@ -69,36 +69,36 @@ Grading scheme:
 ---
 ## Course Schedule
 
-| Date        | Topics                                                                         | HM         |
-|-------------|--------------------------------------------------------------------------------|------------|
-| Wed 05.04   | Introduction to Optimization for machine learning                              |
-| *Mon 10.04* | *No class (Easter Monday)*                                                     |
-| Wed 12.04   | Basic concepts of convex optimization / Analysis of gradient descent algorithm |
-| Mon 17.04   | Ex01 &mdash; Implementation of gradient descent algorithm. Hand-out HM1        |
-| Wed 19.04   | Non-smooth convex optimization/ regularised risk minimization                  |
-| Mon 24.04   | Ex02 &mdash; Implementation of mirror descent algorithm.                       | **01 due** |
-| Wed 26.04   | Stochastic gradient descent                                                    |
-| *Mon 01.05* | *No class (Tag der Arbeit)*                                                    |
-| Wed 03.05   | Online Convex Optimization                                                     |
-| Mon 08.05   | Ex03 &mdash; SGD implementation Hand-out HM2                                   | **02 due** |
-| Wed 10.05   | Intro to Bandits                                                               |
-| Mon 15.05   | Ex04 &mdash; (FTRL?) Implementation of Exploration-Exploitation algorithm      |
-| Wed 17.05   | Large scale learning: empirical risk minimization   ERM                        |
-| Mon 22.05   | Ex05 &mdash; (Exploration-Exploitation?)                                       | **03 due** |
-| Wed 24.05   | Asymptotic analysis of ERM                                                     |
-| *Mon 29.05* | *No class (Pflingstmontag)*                                                    |
-| Wed 31.05   | Trade-off of the performances                                                  |
-| Mon 05.06   | Ex06 &mdash;  Analysis of SVM and its performance through different algorithms | **04 due** |
-| Wed 07.06   | Deep learning optimization part 1                                              |
-| Mon 12.06   | Ex07 &mdash; Implementation Adam, SGD with momentum.                           |
-| Wed 14.06   | Deep learning part 2: Natural Gradient descent                                 |
-| Mon 19.06   | Ex08 &mdash;  Implementation of natural gradient descent                       | **05 due** |
-| Wed 21.06   | Discussion of the projects                                                     |
-| Mon 26.06   | Projects                                                                       |
-| Wed 28.06   | Review topics                                                                  |
-| Mon 03.07   | **Submission of the projects**                                                 |
-| Wed 05.07   | Review topics                                                                  |
-| Mon 10.07   | Practice final exam                                                            |
+| Date        | Topics                                                                                  | HM         |
+|-------------|-----------------------------------------------------------------------------------------|------------|
+| Wed 05.04   | Introduction to Optimization for machine learning                                       |
+| *Mon 10.04* | *No class (Easter Monday)*                                                              |
+| Wed 12.04   | Basic concepts of convex optimization / Analysis of gradient descent algorithm          |
+| Mon 17.04   | Ex01 &mdash; Implementation of gradient descent algorithm. Hand-out HM1                 |
+| Wed 19.04   | Non-smooth convex optimization/ regularised risk minimization                           |
+| Mon 24.04   | Discuss HM01 (Implementation of mirror descent algorithm?)                              | **01 due** |
+| Wed 26.04   | Stochastic gradient descent                                                             |
+| *Mon 01.05* | *No class (Tag der Arbeit)*                                                             |
+| Wed 03.05   | Online Convex Optimization                                                              |
+| Mon 08.05   | Discuss HM 02 $mdash;$ Ex03 &mdash; SGD implementation                                  | **02 due** |
+| Wed 10.05   | Intro to Bandits                                                                        |
+| Mon 15.05   | Ex04 &mdash; Online convex optimization                                                 |
+| Wed 17.05   | Large scale learning: empirical risk minimization   ERM                                 |
+| Mon 22.05   | Discuss HM03 &mdash; Ex05                                                               | **03 due** |
+| Wed 24.05   | Asymptotic analysis of ERM                                                              |
+| *Mon 29.05* | *No class (Pflingstmontag)*                                                             |
+| Wed 31.05   | Trade-off of the performances                                                           |
+| Mon 05.06   | Discuss HM 04 &emdash; Analysis of SVM and its performance through different algorithms | **04 due** |
+| Wed 07.06   | Deep learning optimization part 1                                                       |
+| Mon 12.06   | Ex07 &mdash; Implementation Adam, SGD with momentum.                                    |
+| Wed 14.06   | Deep learning part 2: Natural Gradient descent                                          |
+| Mon 19.06   | Discuss HM05 &emdash; Ex08 &mdash;  Implementation of natural gradient descent          | **05 due** |
+| Wed 21.06   | Discussion of the projects                                                              |
+| Mon 26.06   | Projects                                                                                |
+| Wed 28.06   | Review topics                                                                           |
+| Mon 03.07   | **Submission of the projects**                                                          |
+| Wed 05.07   | Review topics                                                                           |
+| Mon 10.07   | Practice final exam                                                                     |
 
 ## Python, Julia and Jupyter Notebooks
 
