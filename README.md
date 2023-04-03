@@ -148,4 +148,7 @@ notes](https://raw.githubusercontent.com/KarinaPapayia/Optimization-for-Machine-
 
 [Intro to Online Convex Optimization](https://arxiv.org/pdf/1909.05207.pdf), Elad Hazan
 
+### Miscellaneous 
+
+[Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
 
