@@ -1,5 +1,5 @@
 # Optimization for Machine Learning
-Summer semester '23, University of Leipzig, 10-INF-XXXXX
+Summer semester '23, University of Leipzig, 10-INF-DS301
 
 Draft list of topics:
 1. Introduction: Examples of optimization in machine learning
