@@ -54,7 +54,7 @@ Draft list of topics:
 ---
 
 ## Course Information 
-- From April 4th through July 5th 2023
+- Class starts on Wed April 5th
 - Mondays (from April 17th) 17:15 &ndash; 18:45 (Seminar) Pierre Bréchet 
 - Wednesdays 15:15 &ndash; 16:45 (Lectures) Katerina Papagiannouli
 
