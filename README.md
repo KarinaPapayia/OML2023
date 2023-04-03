@@ -1,4 +1,4 @@
-# Optimization-for-Machine-Learning
+# Optimization for Machine Learning
 Summer semester '23, University of Leipzig, 10-INF-XXXXX
 
 Draft list of topics:
