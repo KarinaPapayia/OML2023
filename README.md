@@ -130,8 +130,8 @@ Other material from the [Julia Academy](https://github.com/JuliaAcademy):
 --- -->
 
 ## Literature
-The following materials are chosen to complement the [course lecture
-notes](https://raw.githubusercontent.com/KarinaPapayia/Optimization-for-Machine-Learning/main/OML.pdf)
+The following materials are chosen to complement the course lecture
+notes that will be made available. 
 
 [Optimization in Machine Learning]() Sra, Nowozin & Wright
 
