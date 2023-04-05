@@ -133,13 +133,13 @@ Other material from the [Julia Academy](https://github.com/JuliaAcademy):
 The following materials are chosen to complement the course lecture
 notes that will be made available. 
 
-[Optimization in Machine Learning]() Sra, Nowozin & Wright
+Optimization in Machine Learning, Sra, Nowozin & Wright
 
 ### 1. Convex Optimization
 
 [Convex optimization](https://web.stanford.edu/~boyd/cvxbook), Boyd & Vandenberghe
 
-[Introductory lectures on convex optimization](), Nesterov
+Introductory lectures on convex optimization, Nesterov
 
 ### 2. Optimization for machine learning
 [Optimization for machine learning](https://doc.lagout.org/science/Artificial%20Intelligence/Machine%20learning/Optimization%20for%20Machine%20Learning%20%5BSra%2C%20Nowozin%20%26%20Wright%202011-09-30%5D.pdf)
