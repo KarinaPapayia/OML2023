@@ -40,7 +40,7 @@ $ source .venv/bin/activate
 and deactivate with 
 
 ```bash
-(.venv)$ deactivate
+(.venv) $ deactivate
 ```
 
 More informations can be found [here](https://python.land/virtual-environments/virtualenv#How_to_create_a_Python_venv).
@@ -50,7 +50,7 @@ More informations can be found [here](https://python.land/virtual-environments/v
 Once the virtual environment is created and activated (`source .venv/bin/activate` inside the `OML2023` directory), install the required packages with 
 
 ```bash
-(.venv)$ pip install -r requirements.txt
+(.venv) $ pip install -r requirements.txt
 ```
 
 This will install all the dependencies required to the environment.
@@ -64,7 +64,7 @@ The kernel for the newly created local environment has to be added to the ones
 Jupyter can access to, like so:
 
 ```bash
-(.venv)$ ipython kernel install --name "OML23" --user
+(.venv) $ ipython kernel install --name "OML23" --user
 ```
 The name is simply to identify it later, you can choose any of your liking. The `--user` option make the install only for the current user (no `sudo` necessary).
 
@@ -75,7 +75,7 @@ Then, the kernel should be accessible through Jupyter.
 The `jupyter` package (inside the requirements) can be called with
 
 ```bash
-(.venv)$ jupyter notebook
+(.venv) $ jupyter notebook
 ```
 
 to open a browser and select a notebook. Select the notebook `ex00/ex00.ipynb`. 
