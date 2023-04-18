@@ -74,25 +74,25 @@ Grading scheme:
 | Wed 05.04   | Introduction to Optimization for machine learning                                      |
 | *Mon 10.04* | *No class (Easter Monday)*                                                             |
 | Wed 12.04   | Basic concepts of convex optimization / Analysis of gradient descent algorithm         |
-| Mon 17.04   | Ex01 &mdash; Implementation of gradient descent algorithm. Hand-out HM1                |
+| Mon 17.04   | Ex01 &mdash; Implementation of gradient descent algorithm. Gradient Manipulations.     |
 | Wed 19.04   | Non-smooth convex optimization/ regularised risk minimization                          |
-| Mon 24.04   | Discuss HM01 (Implementation of mirror descent algorithm?)                             | **01 due** |
+| Mon 24.04   | Ex02 &mdash; Linear models, SVM with gradient descent.  **Hand-out HM1**               |            |
 | Wed 26.04   | Stochastic gradient descent                                                            |
 | *Mon 01.05* | *No class (Tag der Arbeit)*                                                            |
 | Wed 03.05   | Online Convex Optimization                                                             |
-| Mon 08.05   | Discuss HM 02 &mdash; Ex03 &mdash; SGD implementation                                  | **02 due** |
+| Mon 08.05   | Discuss HM 01 &mdash; Ex03 &mdash; SGD implementation                                  | **01 due** |
 | Wed 10.05   | Intro to Bandits                                                                       |
-| Mon 15.05   | Ex04 &mdash; Online convex optimization                                                |
+| Mon 15.05   | Ex04 &mdash; Online convex optimization. **Hand-out HM2**                              |
 | Wed 17.05   | Large scale learning: empirical risk minimization   ERM                                |
-| Mon 22.05   | Discuss HM03 &mdash; Ex05                                                              | **03 due** |
-| Wed 24.05   | Asymptotic analysis of ERM                                                             |
+| Mon 22.05   | Discuss HM02 &mdash; Ex05                                                              | **02 due** |
+| Wed 24.05   | Asymptotic analysis of ERM. **Hand-out HM3**                                           |
 | *Mon 29.05* | *No class (Pflingstmontag)*                                                            |
 | Wed 31.05   | Trade-off of the performances                                                          |
-| Mon 05.06   | Discuss HM 04 &mdash; Analysis of SVM and its performance through different algorithms | **04 due** |
+| Mon 05.06   | Discuss HM 03 &mdash; Analysis of SVM and its performance through different algorithms | **03 due** |
 | Wed 07.06   | Optimization in neural networks part 1                                                 |
-| Mon 12.06   | Ex07 &mdash; Implementation Adam, SGD with momentum.                                   |
+| Mon 12.06   | Ex07 &mdash; Implementation Adam, SGD with momentum. **Hand-out HM4**                  |
 | Wed 14.06   | Optimization in neural networks part 2: Natural Gradient descent                       |
-| Mon 19.06   | Discuss HM05 &mdash; Ex08 &mdash;  Implementation of natural gradient descent          | **05 due** |
+| Mon 19.06   | Discuss HM04 &mdash; Ex08 &mdash;  Implementation of natural gradient descent          | **04 due** |
 | Wed 21.06   | Discussion of the projects                                                             |
 | Mon 26.06   | Projects                                                                               |
 | Wed 28.06   | Review topics                                                                          |
