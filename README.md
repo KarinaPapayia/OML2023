@@ -1,5 +1,8 @@
+**UPDATE 20.04**: the lecture is available on [Moodle](https://moodle2.uni-leipzig.de/course/view.php?id=44197)
+
 # Optimization for Machine Learning
 Summer semester '23, University of Leipzig, 10-INF-DS301
+
 
 Draft list of topics:
 1. Introduction: Examples of optimization in machine learning
