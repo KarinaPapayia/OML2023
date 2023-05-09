@@ -1,19 +1,22 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-def plot_convergence(E, sg_norm):
+def plot_convergence(E, sg_norm, kmin):
     """Plot the convergence quantities (energy and gradient norm)
     E: (K,) energy 
     sg_norm: (K,) subgradient norm
+    kmin: step at which the minimum loss is attained
     """
     
     fig, axes = plt.subplots(1, 2, figsize=(8, 4))
     plt.suptitle("Convergence of the algorithm")
     axes[0].plot(E, label="$E(w^{(k)})$")
     axes[0].set_xlabel("$k$")
+    axes[0].plot(kmin, E[kmin], c='r', marker='x', linestyle='none', label='$E_{\mathrm{min}}$')
     axes[0].legend()
     axes[1].plot(sg_norm, label="$\| \mathrm{sg}^{(k)} \|$")
     axes[1].set_xlabel("$k$")
+    axes[1].plot(kmin, sg_norm[kmin], c='r', marker='x', linestyle='none', label='$\| \mathrm{sg}^{(k_\mathrm{min})} \|$')
     axes[1].legend()
     plt.show()
     return fig, axes
@@ -31,8 +34,7 @@ def plot_SVM_sol(W, x, t, cnt):
     plt.scatter(xplus[:, 0], xplus[:, 1], marker='+', label="$t_i = +1$")
     plt.scatter(xminus[:, 0], xminus[:, 1], marker='x', label="$t_i = -1$")
     xx = np.linspace(x[:, 0].min(), x[:, 0].max())
-    plt.plot(xx, -W[0]/W[1] * xx - W[2]/W[1], color="g", label="$\langle w^{(K)},
-             x\\rangle + b = 0$")
+    plt.plot(xx, -W[0]/W[1] * xx - W[2]/W[1], color="g", label="$\langle w^{(K)}, x\\rangle + b = 0$")
     plt.legend()
     plt.title(f"Solution at convergence, $K = {{}}$".format(cnt))
     plt.show()

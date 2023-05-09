@@ -102,39 +102,49 @@ def subgrad_descent(W, X, t, eta=1, max_iter=10000, tol=1e-5):
     cnt=0                   # iternation counter
     converged = False       # convergence criterion
     qts = defaultdict(list) # to save the results
+    Emin = float('inf')     # init at +infinity (or very big)
     while not converged:
         sg = subgrad(W, X, t) # get a current subgradient
         Ek = E(W, X, t)       # current erro value
 
-        W = W - eta * sg # update the weights
-        cnt+=1           # increase the counter
+        if Ek < Emin:       # if the current weight has a lower loss
+            Wmin = W        # record it
+            Emin = Ek       # update the loss
+            kmin = cnt
+
+        W = W - eta * sg    # update the weights
+        cnt+=1              # increase the counter
 
         converged = cnt >= max_iter or np.linalg.norm(sg) <= tol  # test convergence
-        # log values 
-        qts['E'].append(Ek)                  # value of the loss
-        qts['sg_norm'].append(np.linalg.norm(sg)) # norm of subgradient
-        qts['cnt'] = cnt
 
-    return W, qts
+        # log values 
+        qts['E'].append(Ek)                       # value of the loss
+        qts['sg_norm'].append(np.linalg.norm(sg)) # norm of subgradient
+
+    qts['cnt'] = cnt   # for the last iteration
+    qts['kmin'] = kmin # step achieving the least loss
+    qts['Wmin'] = Wmin # solution with least loss
+    qts['W'] = W       # last iterate
+
+    return qts
 
 # ## Separable case
 
 x, t = utils.gen_binary_data()  # x is NxD, t is N
 N, d = x.shape
 
-X = utils.augment(x)  # augment the dataset with a (N,) column of 1s 
+X = augment(x)  # augment the dataset with a (N,) column of 1s 
 
 W = np.zeros(d+1)  # initialize
 
 # perform gradient descent
-W, qts = subgrad_descent(W, X, t)
-cnt = qts['cnt']  # number of iterations
+qts = subgrad_descent(W, X, t)
+W = qts['Wmin']   # best solution
+kmin = qts['kmin'] # number of iterations to best solution
 
-plot_SVM_sol(W, x, t, cnt)
-plot_convergence(qts['E'], qts['sg_norm'])
+plot_SVM_sol(W, x, t, kmin)
+plot_convergence(qts['E'], qts['sg_norm'], kmin)
 
-# **Remark:** Without any constaint, the subgradient algorithm seems to find a solution with
-# a large margin (phenomenon sometimes termed *implicit bias* of the algorithm)
 
 # ## Not separable case
 
@@ -151,11 +161,12 @@ t[flip_idx] *= -1  # flip the elements
 W = np.zeros(d+1)  # initialize
 
 # perform gradient descent
-W, qts = subgrad_descent(W, X, t)
-cnt = qts['cnt']  # number of iterations
+qts = subgrad_descent(W, X, t)
+W = qts['Wmin']
+kmin = qts['kmin']  # number of iterations
 
-plot_SVM_sol(W, x, t, cnt)
-plot_convergence(qts['E'], qts['sg_norm'])
+plot_SVM_sol(W, x, t, kmin)
+plot_convergence(qts['E'], qts['sg_norm'], kmin)
 
 # **Remark:** In the non separable case, the loss cannot reach 0, and the gradient keeps
 # oscillating  without reaching 0 norm. The solution still mostly splits the
