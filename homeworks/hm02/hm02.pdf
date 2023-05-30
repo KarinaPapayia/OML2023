@@ -1,0 +1,195 @@
+\documentclass{exsheet}
+
+\usepackage{times}
+\usepackage{usrcmd}
+\usepackage{tikz}
+\usepackage{commath}
+\usetikzlibrary{calc}
+\usepackage{subcaption}
+\usepackage{comment}
+
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{mathtools}
+\mathtoolsset{showonlyrefs}
+\usepackage[backend=biber]{biblatex}
+
+\addbibresource{refs.bib}
+
+%\usepackage{algpseudocodex}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+%\excludecomment{sol}   % uncomment to hide solutions
+\includecomment{sol} % uncomment to show solutions
+
+\date{\formatdate{12}{06}{2023}}
+\title{Constrained Optimization and SGD}
+\subtitle{Optimization for Machine Learning --- Homework \#2}
+
+\begin{document}
+
+\maketitle
+
+The theory part can be handed-in physically during the exercise session, or
+digitally if typeset on
+\href{https://moodle2.uni-leipzig.de/mod/assign/view.php?id=2178365}{Moodle}.
+The programming part has to be sent on
+\href{https://moodle2.uni-leipzig.de/mod/assign/view.php?id=2178365}{Moodle}.
+\textit{Group work is allowed (2 -- 3 people), but submissions are personal.}.
+
+\ppart{Theory}{12}
+
+\section{Constrained optimization}
+
+
+\begin{exercise}[Constrained optimization, 5 points]
+
+    You encounter the following optimization problem on $x = \begin{pmatrix} x_1
+    \\ x_2 \end{pmatrix}\in \bR^2$: 
+
+    \begin{align*}
+        \text{minimize}\quad &f(x) \defeq -(x_1 + x_2) \\
+        %\tag{\ref{eq:primal-svm}}\\
+        \text{subject to}\quad & c(x) \defeq x_1^2 + x_2^2  \leqslant 1
+\end{align*}
+
+\begin{enumerate}
+    \item 
+ What is the dimension of the Lagrangian multiplier $\alpha$?
+       Write down the Lagrangian~$L(x, \alpha)$.     
+   \item 
+        Show that the dual function $g(\alpha)  \defeq \min_x L(x, \alpha)$ is
+        $g(\alpha) =  - (\alpha + \frac1{2\alpha})$.
+    \item 
+        For feasible $\alpha$ and $x$ (meaning $\alpha \geqslant 0$ and $c(x)
+        \leqslant 0$), show that $g(\alpha) \leqslant f(x)$ .
+        \item
+            Solve the dual problem 
+    \begin{align*}
+        \text{maximize}\quad &g(\alpha) \\
+        \text{subject to}\quad & \alpha \geqslant 0 
+\end{align*}
+\item What is the solution to the original problem?
+\end{enumerate}
+
+
+    
+\end{exercise}
+
+
+\section{General analysis}
+\begin{exercise}[Inequality of $c$-strongly convex functions]
+    Recall that, given $c > 0$, a function $E \colon \Omega \subset \bR^d \to
+    \bR$ is called $c$-strongly convex if $\Omega$ is convex and 
+    \begin{equation}
+        \forall (x,y) \in \Omega^2,\quad E(y) \geqslant E(x) + \ang{\nabla E(x),
+        y-x} + \frac{c}2 \norm{y-x}^2_4
+    \end{equation}
+
+    A strongly convex function has a unique minimizer $x_* = \argmin_{x \in
+    \Omega} E(x)$.
+
+Show the that, if $E$ is $c$-strongly convex, it satisfies the following
+inequality:
+    \begin{equation}
+        \forall y \in \Omega, \quad 2c(E(y) - E_*) \leqslant \norm{\nabla E(y)}^2_2
+    \end{equation}
+    \textit{Hint:} Study the function $q(y) = E(x) + \ang{\nabla E(x),y-x} +
+    \frac{c}2 \norm{y-x}^2_2$.
+\end{exercise}
+
+\section{SGD Analysis}
+
+\begin{exercise}
+Recall that if we assume that $F$ is strongly convex, we can show that the
+gradient descent converges with rate $\mathcal{O}(\rho^{k})$ where $0<\rho<1$, and $k$
+is the number of iterations. This rate is called ``linear convergence''.
+
+    Compare the convergence rate of gradient descent with the rate for the
+    stochastic gradient descent for strongly convex function. Recall the
+    expression for the convergence of stochastic gradient descent  
+    \begin{align*}
+        \bE[\|\nabla f(w_{T})\|^{2}] &\leq 2\bigg(\frac{2\sqrt{T+1} -1}{L}\bigg)^{-1} \cdot \bigg( \bE[f(w_0)] - \bE[f(w_T)] + \frac{\log(T) +1}{L^{2}}\bigg) \\
+&=\mathcal{O}\bigg(\frac{\log(T)}{L\sqrt{T}}\bigg),
+\end{align*}
+where $a$ is the step size, $L$ is the Lipschitz constant, and $T$ is the total number of iterations. 
+\begin{enumerate}
+\item
+    How does this compare to the expression that we get for the gradient descent?
+\item Derive the rate of convergence for the stochastic gradient descent for strongly convex functions.
+\end{enumerate}
+
+\textbf{Hints:}
+\begin{enumerate}
+    \item Start from the expression:
+\begin{equation*}
+    \mathbb{E}[f(x_{k+1})] \leq \mathbb{E}[f(x_k)] -\frac{a}{2}\mathbb{E}[ \|\nabla f(x_k)\|^{2}\|] +\frac{a^{2}\sigma^{2}L}{2}.
+\end{equation*}
+\item Apply the Polyak-Lojasewicz inequality 
+\begin{equation*}
+    \|\nabla f(x)\|^{2} \geq 2\mu(f(x) - f^{*}), \qquad \mbox{$\mu>0$}
+\end{equation*}
+\item Subtract from both sides $f^{*}$.
+
+\item Subtract from both sides the fixed point $\frac{a^{2}\sigma^{2}L}{2\mu a}$
+
+\item Apply the previous step recursively for $T$ steps.
+
+\item Use the inequality $(1-\mu a) \leq \exp(-\mu a)$.
+\end{enumerate}
+
+\end{exercise}
+
+
+\ppart{Programming}{8}
+
+\begin{exercise}[SVM with SGD, 8 points]
+
+    In this exercise, (feature) SVM will be solved with SGD.\@
+
+    We consider the SVM problem with prediction $h(x, w)\defeq 
+    \ang{\phi(x), w} + b$ and  (differentiable) loss $\ell(\hat{y}, y)\defeq 
+\frac{1}{10} \ln (1 + \exp{(10(1 -y\cdot \hat{y}))})$. The composed loss is denoted by $f(w,
+(x,y)) \defeq \ell(h(x, w), y)$. Given a training dataset $\set{(x_i,
+y_i)}_{i\in [n]}$, the empirical risk is $R_n(w) \defeq \frac1n
+\sum_{i=1}^n f(w, (x_i, y_i))$.  \\
+
+The stochastic gradient descent (SGD) algorithm
+is given in \Cref{alg:sgd}. The random variable $\xi_k$ selects samples and their
+targets (i.e.\ elements from $\cX \times \set{-1, 1})$.
+
+\begin{algorithm}
+    \begin{algorithmic}[1]
+        \State Choose an initial iterate $w_1$
+    \For{$k=1, 2, \ldots$}
+\State Generate a realization of the random variable $\xi_k$ with values in $\cX
+\times \set{-1, 1}$ (e.g.\ batch of samples)
+\State Compute a stochastic vector $g(w_k, \xi_k)$
+        \State Choose a step size $\alpha_k >0$
+        \State Set the new iterate as $w_{k+1} \gets w_k - \alpha_k g(w_k,
+        \xi_k)$.
+        \EndFor
+        %\Output $\alpha$
+    \end{algorithmic}
+    \caption{Stochastic Gradient Descent~\cite[Algorithm
+    4.1]{BCN2016Optimization}.}
+    \label{alg:sgd}
+\end{algorithm}
+\begin{enumerate}
+    \item
+        What is the role of the factor $10$ in $\ell$?
+\item 
+    Is the function $w \mapsto R_n(w)$ (strongly) convex? $L$-smooth? What is
+    the gradient $\nabla_w \ell(h(x, w), y)$?
+\item 
+    Implement the SGD algorithm \Cref{alg:sgd}, with data given by
+    \texttt{utils.gen\_linsep\_data}. You can choose how to sample from the
+    dataset, either one sample at a time or using a batch of samples.
+\item
+    Test different step sizes and show the convergence. 
+\end{enumerate}
+\end{exercise}
+\printbibliography
+\end{document}
