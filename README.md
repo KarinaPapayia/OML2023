@@ -97,12 +97,12 @@ Grading scheme:
 | Mon 12.06   | Ex07 &mdash; Implementation Adam, SGD with momentum. **Hand-out HM4**                  |
 | Wed 14.06   | Optimization in neural networks part 2: Natural Gradient descent                       |
 | Mon 19.06   | Discuss HM04 &mdash; Ex08 &mdash;  Implementation of natural gradient descent          | **04 due** |
-| Wed 21.06   | Discussion of the projects                                                             |
+| Wed 21.06   | Discussion of the project                                                            |
 | Mon 26.06   | Projects                                                                               |
-| Wed 28.06   | Review topics                                                                          |
+| Wed 28.06   | Mock Exam                                                                        |
 | Mon 03.07   | **Submission of the projects**                                                         |
-| Wed 05.07   | Review topics                                                                          |
-| Mon 10.07   | Practice final exam                                                                    |
+| Wed 05.07   | Review Mock exam                                                                         |
+| Thu 13.07   | final exam                                                                    |
 
 ## Python, Julia and Jupyter Notebooks
 
@@ -155,3 +155,6 @@ Optimization in Machine Learning, Sra, Nowozin & Wright
 
 [Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
 
+### 4. Implicit Bias 
+
+[Implicit bias of deep learning algorithms](https://arxiv.org/pdf/2208.12591.pdf)
