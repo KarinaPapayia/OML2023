@@ -98,10 +98,10 @@ Grading scheme:
 | Wed 14.06   | Optimization in neural networks part 2: Natural Gradient descent                       |
 | Mon 19.06   | Discuss HM04 &mdash; Ex08 &mdash;  Implementation of natural gradient descent          | **04 due** |
 | Wed 21.06   | Discussion of the project                                                            |
-| Mon 26.06   | Projects                                                                               |
-| Wed 28.06   | Mock Exam                                                                        |
-| Mon 03.07   | **Submission of the projects**                                                         |
-| Wed 05.07   | Review Mock exam                                                                         |
+| Mon 26.06   |  Discussion of the projects                                                                               |
+| Wed 28.06   |  Deep learning optimization                                                                  |
+| Mon 03.07   | Mock Exam                                                  |
+| Wed 10.07   | Submision of the project                                                                       |
 | Thu 13.07   | final exam                                                                    |
 
 ## Python, Julia and Jupyter Notebooks
