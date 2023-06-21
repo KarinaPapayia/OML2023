@@ -7,7 +7,11 @@
 #       extension: .py
 #       format_name: light
 #       format_version: '1.5'
-#       jupytext_version: 1.14.5
+#       jupytext_version: 1.10.0
+#   kernelspec:
+#     display_name: OML23
+#     language: python
+#     name: oml23
 # ---
 
 import utils
@@ -73,7 +77,7 @@ def grad_E(w, lmbda, x, t):
 
 # 3.a. Gradient descent steps to minimize $E$.
 
-def find_w_GD(w0,  lmbda, x, t, eta=0.1, tol=1e-3, MAX_STEP=100_000):
+def find_w_GD(w0,  lmbda, x, t, eta=0.1, tol=1e-3, MAX_STEP=10_000):
     """Find the optimal w with gradient descent
     w0: (d+1,) starting point
     x: (N,) samples
@@ -111,8 +115,8 @@ def find_w_sys(lmbda, x, t, d):
 # Fixed N, varying lambda, d
 Ds = [1, 3, 9, 15]  # will serve as row index
 lambdas = [0, 0.01, 0.1, 1]  # column index
-N = 3  # number of samples
-eta = 0.001  # learning rate
+N = 30  # number of samples
+eta = 0.01  # learning rate
 
 np.random.seed(1)
 
@@ -154,7 +158,7 @@ plt.show()
 # **Answers** 1. We also have $\mathrm{rank}(\Phi \Phi^\top) =
 # \mathrm{rank}(\Phi) \leqslant \min(d+1, N)$. We also know that $\Phi
 # \Phi^\top$ is invertible if and only if $\mathrm{rank}(\Phi \Phi^\top) = d+1$.
-# When $d+1>N$, the matrix $\Phi \Phi^\top$ is therefore not invertible (SciPy raises a LinalgError("singular matrix")).
+# When $d+1>N$, the matrix $\Phi \Phi^\top$ is therefore not invertible (SciPy raises a LinalgError("singular matrix") when $\lambda =0$).
 # This illustrates that there are more than one solution to the fitting problem.
 
 d = 30
@@ -220,4 +224,4 @@ plt.show()
 # squared parameter norm).
 # In the case of $N \gg 1$, the learning rate has to be reduced or a mean should
 # be computed in the energy.
-# 
+#
