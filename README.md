@@ -145,6 +145,7 @@ notes that will be made available.
 Introductory lectures on convex optimization, Nesterov
 
 ### 2. Optimization for machine learning
+
 Optimization in Machine Learning, Sra, Nowozin & Wright
 
 ### 3. Online convex optimization
@@ -158,3 +159,6 @@ Optimization in Machine Learning, Sra, Nowozin & Wright
 ### 4. Implicit Bias 
 
 [Implicit bias of deep learning algorithms](https://arxiv.org/pdf/2208.12591.pdf)
+[Implicit bias of deep learning algorithms](https://arxiv.org/pdf/1812.11118.pdf)
+
+implicit bias https://arxiv.org/pdf/1812.11118.pdf
