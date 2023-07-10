@@ -18,9 +18,9 @@ def Loss(X, W, t, p=10):
     return   1/p * np.log(1 + np.exp(p*(1 - pred(X, W) * t)))
 
 def Grad(X, W, t, p=10):
-    E = np.exp(-p*(1 - pred(X, W) * t))
+    E = np.exp(-p*(1 - pred(X, W) * t))  # use the trick e^x / (1 + e^x) = 1/(1 + e^{-x})
     # return np.concatenate((W[:-1], np.zeros(1)), axis=0)  + np.mean(- X * t[:, None] /(1 + E[:, None]), axis=0)
-    return   np.mean(- X * t[:, None] /(1 + E[:, None]), axis=0)
+    return   np.mean(- X * t[:, None] /(1 + E[:, None]), axis=0)  # mean over the samples
 
 def SGD(x, t, bs=1, lr=0.1, EPOCHS=5):
     """
